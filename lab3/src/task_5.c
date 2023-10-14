@@ -5,22 +5,6 @@
 #include <unistd.h>
 
 int main(int argc, char **argv) {
-    if (argc != 3) {
-        printf("Usage: %s seed array_size\n", argv[0]);
-        return 1;
-    }
-
-    int seed = atoi(argv[1]);
-    if (seed <= 0) {
-        printf("Seed must be a positive number\n");
-        return 1;
-    }
-
-    int array_size = atoi(argv[2]);
-        if (array_size <= 0) {
-        printf("Array size must be a positive number\n");
-    return 1;
-    }
 
     pid_t pid = fork();
 
@@ -28,14 +12,9 @@ int main(int argc, char **argv) {
         perror("Fork failed");
         return 1;
     } else if (pid == 0) {
-    // Child process
-        char seed_str[12];
-        char array_size_str[12];
+        // Child process
 
-        snprintf(seed_str, sizeof(seed_str), "%d", seed);
-        snprintf(array_size_str, sizeof(array_size_str), "%d", array_size);
-
-        execl("./sequential_min_max", "./sequential_min_max", seed_str, array_size_str, NULL);
+        execl("./sequential_min_max", "./sequential_min_max", argv[1], argv[2], NULL);
 
         // execl fails
         perror("Exec failed");
