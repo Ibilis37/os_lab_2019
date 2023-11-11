@@ -1,0 +1,241 @@
+    1  pwd
+    2  cd lab2
+    3  pwd
+    4  cd swap
+    5  cd src
+    6  ls
+    7  cd swap
+    8  pwd
+    9  ls
+   10  ./swap.c
+   11  sudo nano swap.c
+   12  chmod -u+x swap.c
+   13  sudo nano swap.c
+   14  cat swap.c
+   15  ~$ nano swap.c
+   16  nano swap.c
+   17  cc swap.c -o swap
+   18  ./swap.c
+   19  ./swap
+   20  clear
+   21  cc swap.c -o swap
+   22  chmod u+rwx swap
+   23  chmod u+rwx swap.c
+   24  nano swap.c
+   25  ./swap.c
+   26  g++ swap.c -o swap
+   27  cc swap.c
+   28  ./swap
+   29  gcc -v
+   30  clear
+   31  cc swap.c -o swap
+   32  ./swap
+   33  nano swap.c
+   34  clear
+   35  chmod u+rwx swap.h
+   36  chmod u+rwx main.c
+   37  cc swap.h -o swaph
+   38  ./swaph
+   39  ./swap.h
+   40  cc main.c -o main
+   41  ./main
+   42  ./main.c
+   43  clear
+   44  cc -c main.c swap.c swap.h
+   45  cc main.o swap.h.gch swap.o -o rezult_swap
+   46  cc main.o swap.o -o rezult_swap
+   47  ./result_swap
+   48  ./rezult_swap
+   49  clear
+   50  nano swap.c
+   51  cc main.o swap.o -o rezult_swap
+   52  clear
+   53  nano swap.c
+   54  cc -c main.c swap.c swap.h
+   55  cc main.o swap.o -o rezult_swap
+   56  ./rezult_swap
+   57  nano swap.c
+   58  cd ..
+   59  cd revert_string
+   60  pwd
+   61  ls
+   62  chmod u+rwx main.c && chmod u+rwx revert_string.c && chmod u+rwx revert_string.h
+   63  nano main.c
+   64  nano revert_string.c
+   65  pwd
+   66  cp /project/home/ibilis37/workspace/lab2/src/swap/rezult_swap
+   67  cp /project/home/ibilis37/workspace/lab2/src/swap/rezult_swap /project/home/ibilis37/workspace/lab2/src/revert_string
+   68  cc -c main.c revert_string.c revert_string.h
+   69  nano revert_string.c
+   70  cc -c main.c revert_string.c revert_string.h
+   71  clear
+   72  cp /project/home/ibilis37/workspace/lab2/src/swap/rezult_swap /project/home/ibilis37/workspace/lab2/src/revert_string
+   73  cc -c main.c revert_string.c revert_string.h
+   74  nano revert_string.c
+   75  cc -c main.c revert_string.c revert_string.h
+   76  pwd
+   77  clear
+   78  nano revert_string.c
+   79  cc -c main.c revert_string.c revert_string.h
+   80  nano revert_string.c
+   81  cc -c main.c revert_string.c revert_string.h
+   82  cc -c revert_string.c
+   83  nano revert_string.c
+   84  cc -c revert_string.c
+   85  cc -c main.c revert_string.c revert_string.h
+   86  cc main.o revert_string.o -o rezult_revert_string
+   87  ./rezult_revert_string
+   88  ./rezult_revert_string 5 "aaabb"
+   89  cc main.o -o main_
+   90  cc main.o revert_string.o revert_string.h.gch -o rezult_revert_string
+   91  cc main.o revert_string.o -o rezult_revert_string
+   92  ./rezult_revert_string
+   93  ./rezult_revert_string 10 'aaaaaddddd'
+   94  ./rezult_revert_string 10 aaaaaddddd
+   95  ./rezult_revert_string 2 sd
+   96  ./rezult_revert_string 2 "sd"
+   97  ./rezult_revert_string(2, "sd")
+   98  ./rezult_revert_string(5, "sdfff")
+   99  ./rezult_revert_string(5i, "sdfff")
+  100  ./rezult_revert_string(int 5, "sdfff")
+  101  ./rezult_revert_string("sdfff")
+  102  ./rezult_revert_string string
+  103  nano revert_string.c
+  104  ./rezult_revert_string string
+  105  cc main.o revert_string.o -o rezult_revert_string
+  106  ./rezult_revert_string string
+  107  gcc -c revert_string
+  108  gcc -c revert_string.c
+  109  cc main.o revert_string.o -o rezult_revert_string
+  110  ./rezult_revert_string string
+  111  nano revert_string.c
+  112  gcc -c main.c
+  113  ./rezult_revert_string str
+  114  ./rezult_revert_string st
+  115  ./rezult_revert_string s
+  116  ./rezult_revert_string 
+  117  ./rezult_revert_string ghfh
+  118  gcc -c revert_string.c
+  119  cc main.o revert_string.o -o rezult_revert_string
+  120  ./rezult_revert_string ghfh
+  121  gcc main.o revert_string.o -o rezult_revert_string
+  122  ./rezult_revert_string ghfhhhg
+  123  nano revert_string.c
+  124  gcc -c revert_string.c
+  125  gcc main.o revert_string.o -o rezult_revert_string
+  126  ./rezult_revert_string ghfhhhg
+  127  nano revert_string.c
+  128  gcc -c revert_string.c
+  129  nano revert_string.c
+  130  gcc -c revert_string.c
+  131  gcc main.o revert_string.o -o rezult_revert_string
+  132  ./rezult_revert_string ghfhhhg
+  133  nano revert_string.c
+  134  ./rezult_revert_string string
+  135  gcc -c revert_string.c
+  136  gcc main.o revert_string.o -o rezult_revert_string
+  137  ./rezult_revert_string string
+  138  gcc -c revert_string.c
+  139  gcc -c main.c
+  140  gcc main.o revert_string.o -o rezult_revert_string
+  141  ./rezult_revert_string string
+  142  gcc -c revert_string.c
+  143  nano revert_string.c
+  144  gcc -c revert_string.c
+  145  gcc main.o revert_string.o -o rezult_revert_string
+  146  ./rezult_revert_string string
+  147  gcc -c revert_string.c
+  148  gcc main.o revert_string.o -o rezult_revert_string
+  149  ./rezult_revert_string string
+  150  gcc -c revert_string.c
+  151  gcc main.o revert_string.o -o rezult_revert_string
+  152  ./rezult_revert_string string
+  153  gcc -c revert_string.c
+  154  gcc main.o revert_string.o -o rezult_revert_string
+  155  ./rezult_revert_string string
+  156  gcc -c revert_string.c
+  157  gcc main.o revert_string.o -o rezult_revert_string
+  158  ./rezult_revert_string string
+  159  gcc -c revert_string.c
+  160  gcc main.o revert_string.o -o rezult_revert_string
+  161  ./rezult_revert_string string
+  162  gcc -c revert_string.c
+  163  gcc main.o revert_string.o -o rezult_revert_string
+  164  ./rezult_revert_string string
+  165  gcc -c revert_string.c
+  166  gcc main.o revert_string.o -o rezult_revert_string
+  167  ./rezult_revert_string string
+  168  gcc -c revert_string.c
+  169  gcc main.o revert_string.o -o rezult_revert_string
+  170  ./rezult_revert_string string
+  171  ./rezult_revert_string stringhh
+  172  gcc -c revert_string.c
+  173  gcc main.o revert_string.o -o rezult_revert_string
+  174  ./rezult_revert_string stringhh
+  175  ./rezult_revert_string stringhhj
+  176  ./rezult_revert_string stringhhjjj
+  177  ./rezult_revert_string stringhhjjjk
+  178  ./rezult_revert_string stringhhjjjkkk
+  179  ./rezult_revert_string stringhhjjjkkkiii
+  180  ./rezult_revert_string strin
+  181  gcc -c revert_string.c
+  182  gcc main.o revert_string.o -o rezult_revert_string
+  183  ./rezult_revert_string string
+  184  ./rezult_revert_string stringhh
+  185  ./rezult_revert_string stringhhkkk
+  186  gcc -c revert_string.c
+  187  gcc main.o revert_string.o -o rezult_revert_string
+  188  ./rezult_revert_string stringhhkkk
+  189  ./rezult_revert_string string
+  190  ./rezult_revert_string stringrevert
+  191  nano revert_string.c
+  192  cd ..
+  193  pwd
+  194  mkdir task_3
+  195  touch add.c
+  196  cat > add.c
+  197  touch add.h
+  198  cat > add.h
+  199  touch answer.c && cat > answer.c
+  200  touch answer.h && cat > answer.h
+  201  touch main.c && cat > main.c
+  202  clear
+  203  pwd
+  204  cc main.o revert_string.o -o rezult_revert_string
+  205  cd revert_string
+  206  cc main.o revert_string.o -o rezult_revert_string
+  207  ar rc lib_revert_string.a main.o revert_string.o
+  208  ranlib lib_revert_string.a
+  209  clear
+  210  ar rc lib_revert_string.a main.o revert_string.o
+  211  clear
+  212  ar rc lib_revert_string.a revert_string.o
+  213  ranlib lib_revert_string.a
+  214  gcc main.o -L. -l_revert_string -o rezult_lib
+  215  ./rezult_lib
+  216  ./rezult_lib string
+  217  nano revert_string.c
+  218  cc -c revert_string.c
+  219  cc main.o revert_string.o -o rezult_revert_string
+  220  ar rc lib_revert_string.a revert_string.o
+  221  ranlib lib_revert_string.a
+  222  gcc main.o -L. -l_revert_string -o rezult_lib
+  223  ./rezult_lib string
+  224  clear
+  225  gcc -fPIC -c revert_string.c
+  226  gcc -shared -o lib_revert_string2.so
+  227  gcc -fPIC -c revert_string.c
+  228  gcc -shared -o lib_revert_string2.so revert_string.o
+  229  gcc -C main.C
+  230  gcc -fPIC -c revert_string.c
+  231  gcc -shared -o lib_revert_string2.so revert_string.o
+  232  gcc -c main.c
+  233  gcc main.o -L. -l_revert_string2 -o rezult_lib_dyn
+  234  ./run kib_revert_string2.so string
+  235  gcc -o revert_string *.o -L../lib_revert_string2 -lmy -Wl, -rpath, ../lib_revert_string2
+  236  git add revert_string
+  237  pwd
+  238  LD_LIBRARY_PATH=$(owd)
+  239  LD_LIBRARY_PATH=$(pwd)
+  240  export LD_LIBRARY_PATH
+  241  ./rezult_lib_dyn gthhj
